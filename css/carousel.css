@@ -1,0 +1,133 @@
+.slider_container {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider_container .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    float: left;
+    animation: slideshow 10s linear infinite;
+}
+
+.slider_container .slider .slide {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.slider_container .slider .slide .caption {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    transition: 0.001s;
+}
+
+.slider_container .slider .slide .caption .slider_title {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    font-size: 48px;
+}
+
+.slider_container .slider .slide .caption .caption_p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.slider_container .slider .slide.slide1 {
+    background: url(../images/event.png);
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+
+.slider_container .slider .slide.slide2 {
+    background: url(../images/event2.png);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+
+@keyframes slideshow {
+    0% {
+        left: 0;
+    }
+    18% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    38% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    58% {
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    78% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    98% {
+        left: -400%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider_container .slider .slide .caption {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        padding: 20px;
+    }
+    .slider_container .slider .slide .caption .slider_title {
+        margin: 0 0 10px;
+        padding: 0;
+        color: #fff;
+        font-size: 30px;
+    }
+    .slider_container .slider .slide .caption .caption_p {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+    }
+    .slider_container .slider .slide.slide1 {
+        background: url(../images/event.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .slider_container .slider .slide.slide2 {
+        background: url(../images/event2.png);
+        background-size: cover;
+        background-position: center;
+    }
+  
+}

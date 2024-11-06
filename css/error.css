@@ -1,0 +1,35 @@
+form[name="app_dev_form"][data-err="false"]:after {
+    content: attr(data-res);
+    box-sizing: border-box;
+    display: block-inline;
+    color: green;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+form[name="app_dev_form"][data-err="true"]:after {
+    content: attr(data-res);
+    box-sizing: border-box;
+    display: block-inline;
+    color: red;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+form[id="mc-form"][data-err="false"]:after {
+    content: attr(data-res);
+    box-sizing: border-box;
+    display: block-inline;
+    color: green;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+form[id="mc-form"][data-err="true"]:after {
+    content: attr(data-res);
+    box-sizing: border-box;
+    display: block-inline;
+    color: red;
+    margin: 0 auto;
+    border-radius: 5%;
+}
