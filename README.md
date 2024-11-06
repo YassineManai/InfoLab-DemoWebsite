@@ -11,3 +11,5 @@ This is a demo website for showcasing a club or community organization. It inclu
 HTML: Structures the content of the website.
 CSS: Styles the website and ensures responsive design.
 JavaScript: Adds interactive elements, like form validations and dynamic content.
+# UI
+![Full page](https://github.com/user-attachments/assets/e92a009f-5415-4c41-bf35-983d34c33df2)
